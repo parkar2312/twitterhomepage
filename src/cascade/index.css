@@ -1,0 +1,173 @@
+.App{
+    display: flex;
+}
+.sidebar-left{
+    flex: 1;
+}
+.header-l{
+    height: 50px;
+    margin-left: -16rem;
+}
+.header-l h1{
+    color:#08a0e9;
+}
+.body-l{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.body-l a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.body-l a:hover{
+    color: #08a0e9;
+    transition: .3s;
+}
+.tweetbutton{
+    margin-left: -3rem;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: #08a0e9;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+.homepage{
+    flex: 1;
+    padding: 5rem;
+    padding-top: .5rem;
+    margin-left: -8rem;
+}
+.home{
+    border: 1px solid rgb(197, 196, 196);
+    text-align: left;
+    padding-left: 9px;
+    height: 3rem;
+    padding-top: 0%;
+    border-bottom: none;
+}
+.tweetinput{
+    border: 1px solid rgb(197, 196, 196);
+    display: flex;
+    flex-direction: row;
+    padding-left: 9px;
+}
+.tweetinput input{
+    margin-left: 1rem;
+    padding-left: 4px;
+    margin-top: 1rem;
+    border: none;
+    height: 3rem;
+    width: 22rem;
+}
+.tweetbutton1{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #08a0e9;
+    border: none;
+    color: white;
+    margin: .5rem;
+    margin-top: 4rem;
+    text-align: center;
+    line-height: 30px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: small;
+}
+/*`````````````````````````````````````````````````````````````````````````````*/
+.sidebar-right{
+    width: 25rem;
+    flex: 1;
+}
+.searchbar{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.sbar{
+    width: 20rem;
+    height: 1.9rem;
+    margin-top: -.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: none;
+    background-color: rgb(206, 206, 218);
+}
+.searchbar h2{
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: -.5rem;
+    background-color: rgb(206, 206, 218) ;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.searchbar FiSearch{
+    margin-left: 1rem;
+}
+.components{
+    display: flex;
+    flex-direction: row;
+}
+.feed{
+    width: 18rem;
+}
+.media{
+    margin-top: 8px;
+    width: 7rem;
+    height: 5rem;
+    background-color: rgb(206, 206, 218);
+    border-radius: 1rem;
+}
+.rightheader{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgb(235, 226, 226);
+    width: 25rem;
+    height: 2.5rem;
+    text-align: start;
+    border-bottom: 2px solid rgb(173, 169, 169);
+    font-size: medium;
+}
+.rightheader h2{
+    margin-left: 1rem;
+}
+.rightfeeds_1{
+    border-radius: 8px;
+    width: 25rem;
+    background-color: rgb(235, 226, 226);
+}
+.discoverfeed{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 25rem;
+    height: 35rem;
+    background-color: rgb(235, 226, 226);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.expand{
+    margin-top: 1rem;
+}
+.expand a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -18rem;
+}
+.border{
+    background-color: rgb(173, 169, 169);
+    height: 2px;
+    border-radius: 1rem;
+    width: 15rem;
+    margin-left: 5rem;
+}
